@@ -34,3 +34,9 @@ elif player_move == computer_move:
     print("Draw!")
 else:
     print("You lose!")
+next_move = input("Type [yes] to Play Again or [no] to quit:")
+
+if next_move == 'yes':
+    player_move = input("Choose [r]ock, [p]aper or [s]cissors: ")
+else:
+    print("Thank you for playing!")
